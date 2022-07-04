@@ -1,0 +1,35 @@
+{
+    "name": "web_app",
+    "mode": "dev",
+    "port": 7001,
+    "version": "v1.0.0",
+  "start_time": "2022-07-02",
+  "machine_id": 1,
+
+  "log": {
+    "level": "debug",
+    "filename": "web_app.log",
+    "max_size": 200,
+    "max_age": 30,
+    "max_backups": 7
+  },
+
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "root",
+    "password": "wyyanbbzql",
+    "dbname": "bluebell",
+    "max_open_conns": 200,
+    "max_idle_conns": 50
+  },
+
+  "redis": {
+    "host": "127.0.0.1",
+    "port": 16379,
+    "db": 0,
+    "password": "",
+    "pool_size": 100
+  }
+
+}
